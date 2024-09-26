@@ -1,5 +1,116 @@
 *.iml
-.gradle
+.gradle# Gradle files
+.gradle/
+build/
+
+# Kotlin
+*.iml
+*.hprof
+*.idea/
+*.apk
+*.ap_
+*.dex
+*.class
+*.war
+*.jar
+*.swp
+*.swo
+*.zip
+*.7z
+
+# Ignore IntelliJ IDEA project-specific files
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/.name
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+
+# Ignore Android Studio project-specific files
+.idea/*
+*.iml
+*.hprof
+.idea/workspace.xml
+.idea/libraries/
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/copyright
+
+# Avoid ignoring Android Studio folders e.g. drawable folders
+!*/src/main/res/
+
+# Keystore files (if applicable)
+*.jks
+*.keystore
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Gradle generated files
+**/build/
+.gradle/
+build/
+local.properties
+!gradle-wrapper.jar
+!gradlew
+!gradlew.bat
+**/captures/
+
+# Signed APK files
+*.apk
+*.ap_
+
+# Proguard files
+proguard/
+proguard-project.txt
+proguard-rules.pro
+
+# NDK
+obj/
+
+# Generated files
+/build/
+captures/
+
+# Other untracked files that are common in Android Studio projects
+.externalNativeBuild/
+.cxx/
+cmake-build-debug/
+
+# Kotlin
+*.log
+*.map
+*.kt.meta
+
+# JetBrains IDE files
+out/
+.idea/
+
+# Miscellaneous
+.DS_Store
+*.orig
+*.pyc
+*.pyo
+*.out
+*.class
+
+# Ignore Android lint results
+lint/reports/
+lint/intermediates/
+
+# Ignore custom rules files and code coverage
+.rules/
+jacoco/test.exec
+
+# Ignore Firebase or Google Services configuration files
+google-services.json
+
 /local.properties
 /.idea/caches
 /.idea/libraries
